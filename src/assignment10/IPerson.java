@@ -1,5 +1,5 @@
 
-package assignment10;
+package vesion2;
 
 
 public interface IPerson {

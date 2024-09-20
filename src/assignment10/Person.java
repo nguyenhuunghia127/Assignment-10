@@ -1,10 +1,10 @@
 
-package assignment10;
+package vesion2;
 
 import java.util.Date;
 
 
-public  abstract class Person implements IPerson{
+public abstract class Person implements IPerson{
     private String id;
     private String fullName;
     private Date dateOfBirth;
@@ -17,7 +17,6 @@ public  abstract class Person implements IPerson{
 
     public Person() {
     }
-    
 
     public String getId() {
         return id;
@@ -42,6 +41,8 @@ public  abstract class Person implements IPerson{
     public void setDateOfBirth(Date dateOfBirth) {
         this.dateOfBirth = dateOfBirth;
     }
+
     @Override
     public abstract void displayInfor();
+    
 }
